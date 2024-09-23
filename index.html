@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+      }
+      button {
+        cursor: pointer;
+        color:aqua;
+        background-color: black;
+      }
+    </style>
   </head>
 
   <body>
@@ -11,6 +22,14 @@
 
     Tjohooooo!! Här är jag! Texten är ändrad igen, whoop whoop
 
+    <button>Click me!</button>
+
     <!-- hellou -->
+     <script>
+
+      document.querySelector('button').addEventListener('click', () => {
+        alert('Tjohooooo!! Här är jag!');
+      })
+     </script>
   </body>
 </html>
